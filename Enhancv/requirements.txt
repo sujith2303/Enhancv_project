@@ -1,0 +1,7 @@
+smolagents 
+smolagents[litellm]
+pypdf
+gradio
+google
+google-generativeai
+google-genai

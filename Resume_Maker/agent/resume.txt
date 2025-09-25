@@ -1,0 +1,183 @@
+
+%-------------------------
+% Resume in Latex
+% Author : Sujith
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+
+
+    \begin{center}
+                \textbf{\Huge \scshape BOGIREDDY LAVANYA} \\ \vspace{1pt}
+                \small7619777333 $|$ \href{mailto:bogireddylavanya2001@gmail.com}{\underline{bogireddylavanya2001@gmail.com}} $|$ 
+                \href{linkedin.com/in/lavanya-bogireddy-184b6b232}{\underline{linkedin}} $|$
+    \href{}{\underline{github}}
+    \end{center}
+
+
+    
+    
+    \section{Professional Summary}
+    
+    {Experienced Staff Consultant adept at designing, developing, and optimizing complex integration solutions, leveraging expertise in \textbf{Java}, \textbf{Python}, and cloud platforms. Passionate about applying problem-solving abilities to drive innovation in \textbf{AI/ML systems} and enhance system scalability and performance. Eager to contribute to cutting-edge \textbf{Agentic AI} and \textbf{LLM-based applications} within a dynamic technical environment.}
+    
+    
+    \section{Professional Experience}
+    \resumeSubHeadingListStart
+    
+            \resumeSubheading
+              {Staff Consultant (Offshore Integration Junior Developer)}{Jan 2023 – Present}
+              {Oracle Solution Services (India) Pvt. Ltd}{Hyderabad}
+              \resumeItemListStart
+              
+            
+            \resumeItem{\textbf{Designed} and \textbf{developed} over \textbf{10 complex enterprise integrations} using \textbf{Oracle Integration Cloud (OIC)}, optimizing data flow between diverse systems and enhancing system interoperability.}
+            
+            \resumeItem{\textbf{Automated} \textbf{SOA production monitoring processes}, significantly \textbf{reducing manual efforts by 40\%} and improving operational efficiency for critical business applications.}
+            
+            \resumeItem{\textbf{Resolved} over \textbf{10 OSB/SOA defects}, enhancing system \textbf{stability} and \textbf{performance} across integration platforms and minimizing service disruptions.}
+            
+            \resumeItem{\textbf{Collaborated} in over \textbf{30 client engagements}, translating complex business requirements into robust technical specifications for \textbf{seamless integration solutions}.}
+            
+            \resumeItem{\textbf{Led the design} and \textbf{implementation} of \textbf{5+ internal Proof-of-Concepts (POCs)} for \textbf{OIC/SOA}, accelerating the adoption of optimized large-scale integration patterns.}
+            
+        \resumeItemListEnd
+       
+    \resumeSubHeadingListEnd
+    
+    
+    \section{Projects}
+    \resumeSubHeadingListStart
+    
+        \resumeProjectHeading
+            {\textbf{Emotion Detection and Emojify using Deep Learning} \textit{| \textbf{Python}, \textbf{TensorFlow}, \textbf{Keras}, \textbf{CNN}, \textbf{Machine Learning}}}{}
+        \resumeItemListStart\resumeItem{\textbf{Developed} an \textbf{Emotion Detection and Emojify system} using \textbf{Convolutional Neural Networks (CNN)} and \textbf{Machine Learning}, achieving high accuracy in real-time emotion recognition.}\resumeItem{\textbf{Applied Deep Learning} techniques to process and interpret facial expressions, demonstrating foundational expertise in \textbf{Natural Language Processing (NLP)} and \textbf{AI model development}.}\resumeItemListEnd
+        \resumeProjectHeading
+            {\textbf{Gas-South – SOA Production Monitoring} \textit{| \textbf{SOA}, \textbf{OSB}, \textbf{Java}}}{}
+        \resumeItemListStart\resumeItem{\textbf{Engineered automation services} for \textbf{SOA production monitoring}, leading to a \textbf{70\% reduction in manual workload} and significantly boosting operational efficiency.}\resumeItem{\textbf{Analyzed} \textbf{CCS Market message transactions} daily, delivering actionable insights that informed operational improvements and enhanced system performance.}\resumeItemListEnd\resumeSubHeadingListEnd
+
+    \section{Technical Skills}
+    \begin{itemize}[leftmargin=0.15in, label={}]
+        \small{\item{
+            \textbf{Languages}{: \textbf{Java}, \textbf{Python}, JavaScript, SQL} \\
+            \textbf{Technologies}{: \textbf{AI/ML Concepts}, \textbf{Deep Learning}, \textbf{Natural Language Processing (NLP)}, \textbf{Agentic Reasoning}, \textbf{Cloud Computing (OCI)}, \textbf{RESTful APIs}, Oracle Integration Cloud (OIC), SOA} 
+            \textbf{Frameworks}\textbf{LangChain}, \textbf{LangGraph}\textbf{Tools}JDeveloper, MobaXterm
+        }}
+    \end{itemize}
+    
+    
+    \section{Education}
+    \resumeSubHeadingListStart
+    
+        \resumeSubheading
+            {CVR, JNTUH}{Hyderabad, India}
+            {Electronics and Communication Engineering (CGPA: 9.10/10.00)}{August 2019 - May 2023}
+        
+    
+    \section{Achievements}
+    \resumeItemListStart
+        \resumeItem{achievements}
+    \resumeItemListEnd
+
+    
+  \end{document}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="todo-app">
+        <header class="app-header">
+            <h1>Todo App</h1>
+            <label for="theme-select" class="visually-hidden">Select Theme</label>
+            <select id="theme-select" aria-label="Select Theme">
+                <option value="default">Default</option>
+                <option value="sunset">Sunset</option>
+                <option value="ocean">Ocean</option>
+                <option value="forest">Forest</option>
+            </select>
+        </header>
+        <section class="input-section">
+            <input id="new-task-input" type="text" placeholder="What needs to be done?" aria-label="New task" autocomplete="off">
+            <button id="add-task-btn" aria-label="Add task">Add</button>
+        </section>
+        <ul id="task-list" class="task-list"></ul>
+        <div class="filter-bar">
+            <button class="filter-btn" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="active">Active</button>
+            <button class="filter-btn" data-filter="completed">Completed</button>
+        </div>
+        <template id="task-item-template">
+            <li class="task-item">
+                <input type="checkbox" class="task-checkbox" aria-label="Mark task as completed">
+                <label class="task-label"></label>
+                <input type="text" class="task-edit-input" hidden>
+                <button class="task-edit-btn" aria-label="Edit task">Edit</button>
+                <button class="task-save-btn" aria-label="Save task" hidden>Save</button>
+                <button class="task-delete-btn" aria-label="Delete task">Delete</button>
+            </li>
+        </template>
+        <footer class="app-footer">
+            <p class="help-line">Press <kbd>Enter</kbd> to add a task, <kbd>Esc</kbd> to cancel edit, <kbd>Ctrl+Backspace</kbd> to clear completed.</p>
+        </footer>
+    </div>
+</body>
+</html>
